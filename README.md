@@ -1,0 +1,25 @@
+# teste
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Papel de parede amarelo</title>
+</head>
+
+<body style="background-color: #50af4d">
+
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <button id="myButton">Aperte</button>
+    
+  </div>
+
+  <script>
+    var myButton = document.getElementById("myButton");
+
+    myButton.addEventListener("click", function() {
+      window.location.href = "https://www.google.com";
+    });
+  </script>
+  
+</body>
+</html>
